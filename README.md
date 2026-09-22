@@ -113,7 +113,9 @@ The Settings screen allows learners to manage their profile, select their curren
 <img width="362" height="785" alt="WhatsApp Image 2026-09-22 at 21 25 02 (1)" src="https://github.com/user-attachments/assets/0956cd14-e07b-4dfe-8b7c-c88317cc8578" />
 
 Firebase Authentication evidence
-<img width="362" height="785" alt="WhatsApp Image 2026-09-22 at 21 25 02 (1)" src="https://github.com/kunwe/EDU-CONNECT/blob/f2002c9284bbda46d5d0643f1944a09b4eb25cfb/image.png" />
+
+
+<img width="" height="" alt="WhatsApp Image 2026-09-22 at 21 25 02 (1)" src="https://github.com/kunwe/EDU-CONNECT/blob/f2002c9284bbda46d5d0643f1944a09b4eb25cfb/image.png" />
 
 🤖 AI Quizzes
 
