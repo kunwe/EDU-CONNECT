@@ -87,6 +87,37 @@ users/
 ```
 
 ---
+📱 Screenshots
+
+EduConnect provides a simple and learner-friendly interface designed to make studying, career planning, and managing academic activities easy.
+
+🤖 AI Career Advisor
+
+Ask about careers, university requirements, APS scores, and bursary opportunities.
+
+<img width="363" height="778" alt="WhatsApp Image 2026-09-22 at 21 25 03" src="https://github.com/user-attachments/assets/e5ceccc2-fa8e-443f-9297-df7704b4399b" />
+
+
+🏠 My Subjects
+
+The My Subjects screen allows learners to view their selected subjects, including languages, Mathematics, Life Orientation, Physical Sciences, Life Sciences, and Agricultural Sciences.
+
+<img width="366" height="753" alt="WhatsApp Image 2026-09-22 at 21 25 02" src="https://github.com/user-attachments/assets/8cd58948-c469-4418-9e18-c7f7adfc1d19" />
+
+<img width="349" height="689" alt="WhatsApp Image 2026-09-22 at 21 25 01" src="https://github.com/user-attachments/assets/b3053278-1d6c-4915-8afd-d5d3f1ec734e" />
+
+⚙️ Settings
+
+The Settings screen allows learners to manage their profile, select their current academic term, change their password, and log out of the application.
+
+<img width="362" height="785" alt="WhatsApp Image 2026-09-22 at 21 25 02 (1)" src="https://github.com/user-attachments/assets/0956cd14-e07b-4dfe-8b7c-c88317cc8578" />
+
+
+🤖 AI Quizzes
+
+The AI Quizzes screen allows learners to generate CAPS-aligned quizzes and access their previous quiz attempts through Quiz History.
+
+<img width="350" height="757" alt="WhatsApp Image 2026-09-22 at 21 25 01 (1)" src="https://github.com/user-attachments/assets/af846ee4-2524-4946-acf2-2cdc487d8409" />
 
 ## 🤝 Contribution & License
 
