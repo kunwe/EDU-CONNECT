@@ -1,0 +1,5 @@
+com.example.educonnect.test.app-core-1.6.1-0 C:\Users\Student\.gradle\caches\9.1.0\transforms\9da98e1df43d5987289e627e1e75d713\workspace\transformed\core-1.6.1\res
+com.example.educonnect.test.app-androidTest-1 C:\Users\Student\AndroidStudioProjects\educonnect\app\build\generated\res\resValues\androidTest\debug
+com.example.educonnect.test.app-mergeDebugAndroidTestResources-2 C:\Users\Student\AndroidStudioProjects\educonnect\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.educonnect.test.app-mergeDebugAndroidTestResources-3 C:\Users\Student\AndroidStudioProjects\educonnect\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.educonnect.test.app-debugAndroidTest-4 C:\Users\Student\AndroidStudioProjects\educonnect\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
