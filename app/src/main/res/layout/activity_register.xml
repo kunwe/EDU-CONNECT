@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Personal Details Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Surname"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSurname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Grade (e.g., 10, 11, 12)"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etGrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject Number"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSubjectNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            app:endIconMode="password_toggle"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:layout_marginBottom="24dp">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Compulsory Subjects Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compulsory Subjects"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Home Language (HL)"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/actvHomeLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="First Additional Language (FAL)"
+            app:errorEnabled="true"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/actvFirstAdditionalLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mathematics Option"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <RadioGroup
+            android:id="@+id/rgMathematics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rbMaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics"
+                android:checked="true" />
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rbMathLit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematical Literacy"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvLifeOrientation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Life Orientation (Compulsory)"
+            android:padding="12dp"
+            android:background="?attr/colorSurfaceVariant"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Elective Subjects Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elective Subjects (Choose exactly 3)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Stream 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math, Science &amp; Technology Stream"
+            android:textStyle="italic"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbPhysicalSciences" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Physical Sciences" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbLifeSciences" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Life Sciences" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbIT" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Information Technology" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbEGD" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Engineering Graphics and Design" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbAgriSciences" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Agricultural Sciences" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbAgriTech" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Agricultural Technology" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbAgriManagement" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Agricultural Management Practices" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbTechMaths" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Technical Mathematics" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbTechSciences" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Technical Sciences" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbCivilTech" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Civil Technology" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbElectTech" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Electrical Technology" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbMechTech" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mechanical Technology" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbMaritime" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Maritime Economics" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbAPMaths" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Advanced Programme Mathematics" android:layout_marginBottom="12dp" />
+
+        <!-- Stream 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commercial &amp; Business Stream"
+            android:textStyle="italic"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbAccounting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Accounting" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbBusinessStudies" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Business Studies" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbEconomics" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Economics" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbCAT" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Computer Applications Technology (CAT)" android:layout_marginBottom="12dp" />
+
+        <!-- Stream 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Humanities &amp; Social Sciences Stream"
+            android:textStyle="italic"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbGeography" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Geography" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbHistory" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="History" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbReligion" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Religion Studies" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbConsumer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Consumer Studies" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbHospitality" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hospitality Studies" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbTourism" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tourism" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbDramaticArts" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dramatic Arts" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbVisualArts" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Visual Arts" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbDesign" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Design" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbMusic" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Music" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbDance" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dance Studies" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbSportScience" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sport and Exercise Science" />
+        <com.google.android.material.checkbox.MaterialCheckBox android:id="@+id/cbEquine" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Equine Studies" android:layout_marginBottom="24dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
