@@ -69,6 +69,9 @@ Powered by modern Android architectural practices, Firebase, and **Gemini AI**, 
 
 ---
 
+5 . Youtube link.
+https://youtu.be/jgj8ouS6haM?si=_awWNcLN7yWmHnJ9
+
 ## 📊 Firestore Data Structure
 
 ```text
