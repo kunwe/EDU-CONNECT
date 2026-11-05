@@ -262,46 +262,6 @@ The AI Quizzes screen allows learners to access CAPS-aligned quizzes, test their
 
 The following sections are reserved for screenshots demonstrating the additional functionality implemented for the final OPSC6312 Part 3 submission.
 
-#### 📶 Offline Mode & Data Synchronisation
-
-Demonstrates how the application behaves when the device is disconnected from the internet, including access to previously stored study materials.
-
-**Evidence to include:** Screenshot showing the application operating in Airplane Mode or without an internet connection.
-
-<!-- Replace the placeholder below with your actual screenshot. -->
-
-![Offline Mode and Data Synchronisation](ADD_OFFLINE_MODE_SCREENSHOT_URL_HERE)
-
-#### 🔔 Real-Time Push Notifications
-
-Demonstrates the Firebase Cloud Messaging integration and the delivery of study reminders, examination alerts, and motivational notifications.
-
-**Evidence to include:** Screenshot showing a push notification appearing on the Android device.
-
-<!-- Replace the placeholder below with your actual screenshot. -->
-
-![Real-Time Push Notifications](ADD_NOTIFICATION_SCREENSHOT_URL_HERE)
-
-#### 🌍 Multilingual Support – isiZulu
-
-Demonstrates the localisation functionality, showing how the application's user interface changes from English to isiZulu.
-
-**Evidence to include:** Screenshot showing the application interface translated into isiZulu.
-
-<!-- Replace the placeholder below with your actual screenshot. -->
-
-![isiZulu Language Support](ADD_ISIZULU_SCREENSHOT_URL_HERE)
-
-#### 📦 Google Play Store Publishing Preparation
-
-Demonstrates the preparation of the application for distribution through the Google Play Store.
-
-**Evidence to include:** Screenshot of the Google Play Console setup and/or signed APK generation.
-
-<!-- Replace the placeholder below with your actual screenshot. -->
-
-![Google Play Store Publishing Preparation](ADD_PLAY_STORE_SCREENSHOT_URL_HERE)
-
 ---
 # 📱 EduConnect App – Screen Guide
 
