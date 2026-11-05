@@ -214,45 +214,11 @@ This automated process helps identify potential errors early and ensures that ch
 
 ---
 
-## 📱 6. Screenshots & Development Evidence
-
-EduConnect provides a modern and learner-friendly interface designed to make studying, career planning, and managing academic activities easier.
-
-### 6.1 Existing Part 2 Screenshots
-
-The following screenshots demonstrate the application's original functionality and interface.
-
-#### 🤖 AI Career Advisor
-
-The AI Career Advisor helps learners explore career opportunities, university admission requirements, APS scores, and available bursaries.
-
-<img width="250" alt="AI Career Advisor" src="https://github.com/user-attachments/assets/e5ceccc2-fa8e-443f-9297-df7704b4399b" />
-
-#### 🏠 My Subjects
-
-The My Subjects screen allows learners to view their selected school subjects, including languages, Mathematics, Life Orientation, Physical Sciences, Life Sciences, and Agricultural Sciences.
-
-<img width="250" alt="My Subjects 1" src="https://github.com/user-attachments/assets/8cd58948-c469-4418-9e18-c7f7adfc1d19" />
-
-<img width="250" alt="My Subjects 2" src="https://github.com/user-attachments/assets/b3053278-1d6c-4915-8afd-d5d3f1ec734e" />
-
-#### ⚙️ Settings
-
-The Settings screen allows learners to manage their profiles, select their current academic term, change their passwords, and log out of the application.
-
-<img width="250" alt="Settings" src="https://github.com/user-attachments/assets/0956cd14-e07b-4dfe-8b7c-c88317cc8578" />
-
 #### 🔐 Firebase Authentication Evidence
 
 The following screenshot demonstrates the Firebase Authentication configuration used by EduConnect.
 
 <img width="450" alt="Firebase Authentication Evidence" src="https://github.com/kunwe/EDU-CONNECT/blob/f2002c9284bbda46d5d0643f1944a09b4eb25cfb/image.png" />
-
-#### 🤖 AI Quizzes
-
-The AI Quizzes screen allows learners to access CAPS-aligned quizzes, test their subject knowledge, and review previous attempts through Quiz History.
-
-<img width="250" alt="AI Quizzes" src="https://github.com/user-attachments/assets/af846ee4-2524-4946-acf2-2cdc487d8409" />
 
 ---
 
