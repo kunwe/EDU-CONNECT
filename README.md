@@ -1,6 +1,6 @@
 # EduConnect 🎓🚀
 
-**Module:** OPSC6312 – Part 3:
+**Module:** OPSC6312 – Part 3 :
 
 **Group Members:**
 - Kun'we Tyrone Mdaka (ST10262122)
