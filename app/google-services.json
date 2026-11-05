@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193835122424",
+    "project_id": "opsc-c6784",
+    "storage_bucket": "opsc-c6784.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193835122424:android:986727e733ba69dba0c50d",
+        "android_client_info": {
+          "package_name": "com.example.educonnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193835122424-f3jnrk2ni6vjdaa7plq7ppc711m2327u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBofbV8HG1DPuVi5e4wXJrShTTHaLHeq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193835122424-f3jnrk2ni6vjdaa7plq7ppc711m2327u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

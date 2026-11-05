@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note: These translations should be reviewed by a native speaker. -->
+<resources>
+    <string name="app_name">EduConnect</string>
+    <string name="nav_home">Ekhaya</string>
+    <string name="nav_courses">Izifundo</string>
+    <string name="nav_notifications">Izaziso</string>
+    <string name="nav_settings">Izilungiselelo</string>
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="general_category">Okujwayelekile</string>
+    <string name="language_label">Ulimi</string>
+    <string name="theme_label">Indikimba</string>
+    <string name="theme_light">Okukhanyayo</string>
+    <string name="theme_dark">Okumnyama</string>
+    <string name="theme_system">Okuzenzakalelayo kohlelo</string>
+    <string name="push_notifications">Izaziso eziphuthumayo</string>
+    <string name="account_category">I-akhawunti</string>
+    <string name="personal_info">Imininingwane yomuntu siqu</string>
+    <string name="change_password">Shintsha iphasiwedi</string>
+    <string name="privacy_settings">Izilungiselelo zobumfihlo</string>
+    <string name="about_category">Mayelana</string>
+    <string name="terms_of_service">Imigomo yesevisi</string>
+    <string name="about_educonnect">Mayelana ne-EduConnect</string>
+    <string name="logout">Phuma</string>
+    <string name="welcome_format">Sawubona, %1$s %2$s</string>
+    <string name="grade_format">Umfundi kaGreyidi %1$d</string>
+    <string name="compulsory_subjects">Izifundo eziyisibopho</string>
+    <string name="elective_subjects">Izifundo zokuzikhethela</string>
+    <string name="home_language">Ulimi Lwasekhaya</string>
+    <string name="first_additional_language">Ulimi Lwesibili Olungeziwe</string>
+    <string name="mathematics">Izibalo</string>
+    <string name="life_orientation">Izifundo Zokuphila</string>
+    <string name="elective">Okokuzikhethela</string>
+    <string name="email_hint">I-imeyili</string>
+    <string name="password_hint">Iphasiwedi</string>
+    <string name="login_button">Ngena</string>
+    <string name="create_account">Dala i-akhawunti</string>
+    <string name="login_title">Ngena ku-EduConnect</string>
+</resources>

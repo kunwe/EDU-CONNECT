@@ -1,0 +1,54 @@
+========================================================================
+EDUCONNECT - APPLICATION RUN GUIDE & NEW FEATURES OVERVIEW
+========================================================================
+
+## 1. How the App Runs & Architecture
+- **UI Framework:** Built entirely with Jetpack Compose and Material 3 design components.
+- **Architecture:** Follows the MVVM (Model-View-ViewModel) architectural pattern with Google Hilt for dependency injection.
+- **Backend & Persistence:** Powered by Firebase Authentication and Cloud Firestore, backed by local Room database caching for complete offline functionality.
+- **AI Integration:** Uses Retrofit and OkHttp REST clients to communicate with the Gemini API for intelligent tutoring, summaries, and adaptive quizzes.
+
+---
+
+## 2. Comprehensive List of New Features
+
+### A. In-App Multilingual Support
+- **Languages Supported:** English, isiZulu, Afrikaans, and Sesotho.
+- **How it Works:** Managed via `LanguageManager` and `MainActivity.attachBaseContext` propagation. Changing the language updates app locales and instantly recreates the activity across all Android devices and manufacturers. AI features automatically adapt their prompts to respond in the selected language.
+
+### B. Dark, Light, and System Theme Mode
+- **Modes:** Light Theme, Dark Theme, and System Default.
+- **How it Works:** Configured with Material3 DayNight palettes, managed by `ThemeManager`, persisted locally, and applied instantly on app startup and runtime selection.
+
+### C. Offline Authentication & Room Caching
+- **Offline Support:** If offline or network errors occur during login or registration, the app seamlessly falls back to the local Room database, ensuring learners can always access their accounts and study materials.
+
+### D. Google Sign-In & Strict Registration
+- **Account Chooser:** Tapping "Sign in with Google" prompts the system account picker (`AccountManager.newChooseAccountIntent`), letting users choose from any Gmail account on their device rather than auto-signing into the last one.
+- **Security Rule:** Unregistered Gmail accounts cannot log in directly; users must register their accounts first. First-time Google sign-ups are guided to complete their profile registration.
+
+### E. Persistent Login Session
+- **Auto-Login:** When the app is closed and reopened, `MainActivity` checks existing authentication state (`FirebaseAuth.getInstance().currentUser`) and opens directly to the Dashboard, keeping users logged in across app restarts.
+
+### F. Internal Storage File Uploads
+- **Document Picker:** Students and teachers can upload any file (PDFs, Word documents, text files, images) from their device internal storage directly to any subject's material or assignment section.
+
+### G. Randomized Quiz Engine
+- **Subject Question Banks:** Each subject features a curated bank of 15 curriculum-aligned quiz questions.
+- **Random Selection:** Every time a user enters or re-enters a quiz, the app randomly shuffles and presents 5 unique questions.
+
+### H. Study Time & Subject Tracker Tab
+- **Study Tracking:** A dedicated bottom navigation tab (`⏱️ Study`) that tracks study hours per subject.
+- **Period Filter:** Switch dynamically between *This Week*, *This Month*, and *This Term* to view graphs, min/max study time goals, and adherence rates.
+- **Gamification:** Unlockable study milestone badges (e.g., "Math Whiz", "7-Day Streak", "Exam Ready").
+
+### I. Interactive Calendar View
+- **Month/Year Navigation:** Users can navigate through previous and next months and years.
+- **Visibility Toggle:** Easily show or hide the calendar view from the Notifications screen.
+
+---
+
+## 3. Getting Started & Testing
+- **Clone Repository:** `https://github.com/kunwe/EDU-CONNECT`
+- **Run Unit Tests:** `./gradlew testDebugUnitTest`
+- **Build & Install Debug APK:** `./gradlew installDebug`

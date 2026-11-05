@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Note: These translations should be reviewed by a native speaker. -->
+<resources>
+    <string name="app_name">EduConnect</string>
+    <string name="nav_home">Tuis</string>
+    <string name="nav_courses">Kursusse</string>
+    <string name="nav_notifications">Kennisgewings</string>
+    <string name="nav_settings">Instellings</string>
+    <string name="settings_title">Instellings</string>
+    <string name="general_category">Algemeen</string>
+    <string name="language_label">Taal</string>
+    <string name="theme_label">Tema</string>
+    <string name="theme_light">Lig</string>
+    <string name="theme_dark">Donker</string>
+    <string name="theme_system">Stelsel verstek</string>
+    <string name="push_notifications">Stootkennisgewings</string>
+    <string name="account_category">Rekening</string>
+    <string name="personal_info">Persoonlike inligting</string>
+    <string name="change_password">Verander wagwoord</string>
+    <string name="privacy_settings">Privaatheidsinstellings</string>
+    <string name="about_category">Oor</string>
+    <string name="terms_of_service">Diensvoorwaardes</string>
+    <string name="about_educonnect">Oor EduConnect</string>
+    <string name="logout">Teken uit</string>
+    <string name="welcome_format">Welkom, %1$s %2$s</string>
+    <string name="grade_format">Graad %1$d Leerling</string>
+    <string name="compulsory_subjects">Verpligte Vakke</string>
+    <string name="elective_subjects">Keusevakke</string>
+    <string name="home_language">Huistaal</string>
+    <string name="first_additional_language">Eerste Addisionele Taal</string>
+    <string name="mathematics">Wiskunde</string>
+    <string name="life_orientation">Lewensoriëntering</string>
+    <string name="elective">Keusevak</string>
+    <string name="email_hint">E-pos</string>
+    <string name="password_hint">Wagwoord</string>
+    <string name="login_button">Teken aan</string>
+    <string name="create_account">Skep \'n rekening</string>
+    <string name="login_title">Teken aan by EduConnect</string>
+</resources>
