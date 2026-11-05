@@ -16,9 +16,7 @@
 
 Watch the final EduConnect POE demonstration to see the application's features and functionality in action.
 
-[![EduConnect Final POE Demonstration](https://img.youtube.com/vi/gjg8ouS6haM/0.jpg)](https://youtu.be/gjg8ouS6haM)
-
-[**Click here to watch the EduConnect Final POE Demonstration on YouTube**](https://youtu.be/gjg8ouS6haM)
+YouTube Link: https://www.youtube.com/watch?v=NePdzbsaU_4 
 
 ---
 
