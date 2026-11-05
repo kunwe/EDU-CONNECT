@@ -228,39 +228,39 @@ The following screenshots demonstrate the application's original functionality a
 
 The AI Career Advisor helps learners explore career opportunities, university admission requirements, APS scores, and available bursaries.
 
-<img width="363" height="778" alt="AI Career Advisor" src="https://github.com/user-attachments/assets/e5ceccc2-fa8e-443f-9297-df7704b4399b" />
+<img width="250" alt="AI Career Advisor" src="https://github.com/user-attachments/assets/e5ceccc2-fa8e-443f-9297-df7704b4399b" />
 
 #### 🏠 My Subjects
 
 The My Subjects screen allows learners to view their selected school subjects, including languages, Mathematics, Life Orientation, Physical Sciences, Life Sciences, and Agricultural Sciences.
 
-<img width="366" height="753" alt="My Subjects 1" src="https://github.com/user-attachments/assets/8cd58948-c469-4418-9e18-c7f7adfc1d19" />
+<img width="250" alt="My Subjects 1" src="https://github.com/user-attachments/assets/8cd58948-c469-4418-9e18-c7f7adfc1d19" />
 
-<img width="349" height="689" alt="My Subjects 2" src="https://github.com/user-attachments/assets/b3053278-1d6c-4915-8afd-d5d3f1ec734e" />
+<img width="250" alt="My Subjects 2" src="https://github.com/user-attachments/assets/b3053278-1d6c-4915-8afd-d5d3f1ec734e" />
 
 #### ⚙️ Settings
 
 The Settings screen allows learners to manage their profiles, select their current academic term, change their passwords, and log out of the application.
 
-<img width="362" height="785" alt="Settings" src="https://github.com/user-attachments/assets/0956cd14-e07b-4dfe-8b7c-c88317cc8578" />
+<img width="250" alt="Settings" src="https://github.com/user-attachments/assets/0956cd14-e07b-4dfe-8b7c-c88317cc8578" />
 
 #### 🔐 Firebase Authentication Evidence
 
 The following screenshot demonstrates the Firebase Authentication configuration used by EduConnect.
 
-<img alt="Firebase Authentication Evidence" src="https://github.com/kunwe/EDU-CONNECT/blob/f2002c9284bbda46d5d0643f1944a09b4eb25cfb/image.png" />
+<img width="450" alt="Firebase Authentication Evidence" src="https://github.com/kunwe/EDU-CONNECT/blob/f2002c9284bbda46d5d0643f1944a09b4eb25cfb/image.png" />
 
 #### 🤖 AI Quizzes
 
 The AI Quizzes screen allows learners to access CAPS-aligned quizzes, test their subject knowledge, and review previous attempts through Quiz History.
 
-<img width="350" height="757" alt="AI Quizzes" src="https://github.com/user-attachments/assets/af846ee4-2524-4946-acf2-2cdc487d8409" />
+<img width="250" alt="AI Quizzes" src="https://github.com/user-attachments/assets/af846ee4-2524-4946-acf2-2cdc487d8409" />
 
 ---
 
 ### 6.2 New Part 3 POE Evidence
 
-The following sections are reserved for screenshots demonstrating the additional functionality implemented for the final OPSC6312 Part 3 submission.
+The Part 3 additions are documented in the architecture, feature, release notes, and AI usage sections below. The screen guide also includes the updated interface evidence for authentication, assignment management, notifications, study tracking, settings, and localisation. Add any further implementation-specific screenshots to this section when available.
 
 ---
 # 📱 EduConnect App – Screen Guide
@@ -274,7 +274,7 @@ This section covers the initial application setup, user login, and the two-step 
 ### App Installation Screen
 Shows the standard Android package installer, indicating that the application is being installed using an APK shared via WhatsApp. The installation screen also displays the **"No threats found"** security check.
 
-<img width="748" height="1600" alt="INSTALL" src="https://github.com/user-attachments/assets/bf13c0ea-7192-42f9-a04f-c5d4992e1b12" />
+<img width="250" alt="INSTALL" src="https://github.com/user-attachments/assets/bf13c0ea-7192-42f9-a04f-c5d4992e1b12" />
 
 ### Login Screen
 The main entry point for returning users. It includes:
@@ -283,12 +283,12 @@ The main entry point for returning users. It includes:
 - A **Sign in with Google** option for convenient authentication.
 - A **Create an account** link for new users.
 
-<img width="1080" height="2310" alt="WhatsApp Image 2026-11-05 at 21 33 23" src="https://github.com/user-attachments/assets/774fb70e-c0ab-4248-a2fe-4aac73802187" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 23" src="https://github.com/user-attachments/assets/774fb70e-c0ab-4248-a2fe-4aac73802187" />
 
 ### Google Sign-In
 Displays the standard Google authentication interface, allowing students to select or sign in using an existing Google account.
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24 (1)" src="https://github.com/user-attachments/assets/70d279cb-6d5f-4477-b098-04014c62f2a5" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 24 (1)" src="https://github.com/user-attachments/assets/70d279cb-6d5f-4477-b098-04014c62f2a5" />
 
 ### Student Registration (Part 1 – Account & Personal Information)
 The first stage of the registration process. Students can create an account using their email and password or Google authentication.
@@ -307,9 +307,9 @@ Students are required to choose:
 - Mathematics type (Pure Mathematics or Mathematical Literacy).
 - Exactly three elective subjects from available categories, including Mathematics, Science and Technology (e.g., Physical Sciences, Information Technology and Engineering Graphics and Design).
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 23 (1)" src="https://github.com/user-attachments/assets/d5088565-a174-4887-88ba-810cb8ab7c99" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 23 (1)" src="https://github.com/user-attachments/assets/d5088565-a174-4887-88ba-810cb8ab7c99" />
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24" src="https://github.com/user-attachments/assets/7a8d0fd5-3e94-4f84-9b08-765f4efcc163" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 24" src="https://github.com/user-attachments/assets/7a8d0fd5-3e94-4f84-9b08-765f4efcc163" />
 
 ---
 
@@ -328,7 +328,7 @@ It also lists all enrolled compulsory subjects, such as:
 
 Students can quickly access their subjects directly from the dashboard.
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24 (2)" src="https://github.com/user-attachments/assets/2627f53e-05df-46ba-a2df-74cd2ac31716" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 24 (2)" src="https://github.com/user-attachments/assets/2627f53e-05df-46ba-a2df-74cd2ac31716" />
 
 ### My Courses
 Displays a comprehensive list of the student's active courses.
@@ -373,7 +373,7 @@ Students can also:
 - Upload supported file formats, including TXT, PDF, Word documents and PNG images.
 - Click the **Add** button to save the assignment.
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 26 (1)" src="https://github.com/user-attachments/assets/8ecc2458-1417-43c0-b81b-0aafe5aa3dc5" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 26 (1)" src="https://github.com/user-attachments/assets/8ecc2458-1417-43c0-b81b-0aafe5aa3dc5" />
 
 ---
 
@@ -400,9 +400,9 @@ Shows the notification feed with the integrated calendar expanded.
 
 The calendar displays a monthly view (e.g., November 2026), using dots to highlight dates with upcoming assignments, deadlines, or academic events.
 
-<img width="748" height="1600" alt="REAL TIME " src="https://github.com/user-attachments/assets/344c77bb-6a45-4320-ab15-c5e77195c03b" />
+<img width="250" alt="REAL TIME " src="https://github.com/user-attachments/assets/344c77bb-6a45-4320-ab15-c5e77195c03b" />
 
-<img width="748" height="1600" alt="REAL TIME CAL" src="https://github.com/user-attachments/assets/cd671ba7-efce-4833-a9e3-27dc5403e6a2" />
+<img width="250" alt="REAL TIME CAL" src="https://github.com/user-attachments/assets/cd671ba7-efce-4833-a9e3-27dc5403e6a2" />
 
 
 ---
@@ -443,13 +443,13 @@ Examples include:
 - 🔥 **7-Day Streak:** Rewards students for maintaining a consistent study routine for seven consecutive days.
 - 🎓 **Exam Ready:** Recognises preparation and progress towards examinations.
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 28 (1)" src="https://github.com/user-attachments/assets/e18a088e-0f53-42e5-90d0-6f937f64ff18" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 28 (1)" src="https://github.com/user-attachments/assets/e18a088e-0f53-42e5-90d0-6f937f64ff18" />
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 28" src="https://github.com/user-attachments/assets/5d332cb2-b457-4d20-b0bb-94aae8b5eedf" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 28" src="https://github.com/user-attachments/assets/5d332cb2-b457-4d20-b0bb-94aae8b5eedf" />
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 29 (1)" src="https://github.com/user-attachments/assets/6b8f4092-3560-4672-b11d-7c3138076d09" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 29 (1)" src="https://github.com/user-attachments/assets/6b8f4092-3560-4672-b11d-7c3138076d09" />
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 29" src="https://github.com/user-attachments/assets/621ab66a-7017-47f3-8fb4-e79a5bf9cc14" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 29" src="https://github.com/user-attachments/assets/621ab66a-7017-47f3-8fb4-e79a5bf9cc14" />
 
 ---
 
@@ -477,9 +477,9 @@ Supported languages include:
 - Afrikaans
 - Sesotho
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 30" src="https://github.com/user-attachments/assets/e5cf6949-3d31-4448-8428-dfe49e6c91a7" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 30" src="https://github.com/user-attachments/assets/e5cf6949-3d31-4448-8428-dfe49e6c91a7" />
 
-<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 31" src="https://github.com/user-attachments/assets/2f9f2b2e-c94d-48d2-84ec-b2e4472f887f" />
+<img width="250" alt="WhatsApp Image 2026-11-05 at 21 33 31" src="https://github.com/user-attachments/assets/2f9f2b2e-c94d-48d2-84ec-b2e4472f887f" />
 
 ### Theme Selection Modals (Dark & Light)
 Allows students to customise the application's appearance.
@@ -489,9 +489,9 @@ Available options include:
 - **Dark Mode:** Uses a darker interface for improved visual comfort in low-light environments.
 - **System Default:** Automatically follows the device's appearance settings.
 
-<img width="1080" height="2310" alt="DARK MODE" src="https://github.com/user-attachments/assets/5818562b-3fbf-49f5-b482-a7fe97f169e5" />
+<img width="250" alt="DARK MODE" src="https://github.com/user-attachments/assets/5818562b-3fbf-49f5-b482-a7fe97f169e5" />
 
-<img width="1080" height="2310" alt="LIGHT MODE" src="https://github.com/user-attachments/assets/4b3d5733-d537-4ea8-9758-590a88e455d1" />
+<img width="250" alt="LIGHT MODE" src="https://github.com/user-attachments/assets/4b3d5733-d537-4ea8-9758-590a88e455d1" />
 
 ### Localized Settings (isiZulu & Afrikaans)
 Demonstrates EduConnect's multilingual functionality by showing how the settings interface changes when a different language is selected.
