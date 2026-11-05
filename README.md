@@ -303,6 +303,246 @@ Demonstrates the preparation of the application for distribution through the Goo
 ![Google Play Store Publishing Preparation](ADD_PLAY_STORE_SCREENSHOT_URL_HERE)
 
 ---
+# 📱 EduConnect App – Screen Guide
+
+This section provides a visual walkthrough of the EduConnect mobile application, highlighting its main features and user workflows. The screenshots are organised into different sections to make it easier to understand the app's structure, functionality, and overall user experience.
+
+## 1. Installation & Authentication
+
+This section covers the initial application setup, user login, and the two-step student registration process.
+
+### App Installation Screen
+Shows the standard Android package installer, indicating that the application is being installed using an APK shared via WhatsApp. The installation screen also displays the **"No threats found"** security check.
+
+<img width="748" height="1600" alt="INSTALL" src="https://github.com/user-attachments/assets/bf13c0ea-7192-42f9-a04f-c5d4992e1b12" />
+
+### Login Screen
+The main entry point for returning users. It includes:
+- Email and Password input fields.
+- A **Login** button.
+- A **Sign in with Google** option for convenient authentication.
+- A **Create an account** link for new users.
+
+<img width="1080" height="2310" alt="WhatsApp Image 2026-11-05 at 21 33 23" src="https://github.com/user-attachments/assets/774fb70e-c0ab-4248-a2fe-4aac73802187" />
+
+### Google Sign-In
+Displays the standard Google authentication interface, allowing students to select or sign in using an existing Google account.
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24 (1)" src="https://github.com/user-attachments/assets/70d279cb-6d5f-4477-b098-04014c62f2a5" />
+
+### Student Registration (Part 1 – Account & Personal Information)
+The first stage of the registration process. Students can create an account using their email and password or Google authentication.
+
+The form collects the following information:
+- First Name
+- Surname
+- South African ID Number / Student Number
+- Current Grade
+
+### Student Registration (Part 2 – Subject Selection)
+The second stage of registration allows students to select their academic subjects.
+
+Students are required to choose:
+- First Additional Language.
+- Mathematics type (Pure Mathematics or Mathematical Literacy).
+- Exactly three elective subjects from available categories, including Mathematics, Science and Technology (e.g., Physical Sciences, Information Technology and Engineering Graphics and Design).
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 23 (1)" src="https://github.com/user-attachments/assets/d5088565-a174-4887-88ba-810cb8ab7c99" />
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24" src="https://github.com/user-attachments/assets/7a8d0fd5-3e94-4f84-9b08-765f4efcc163" />
+
+---
+
+## 2. Dashboard & Course Management
+
+This section demonstrates the main dashboard and how students access and manage their enrolled subjects.
+
+### EduConnect Dashboard
+The home screen provides a personalised welcome message (e.g., **"Welcome, John"**) and displays the student's current grade.
+
+It also lists all enrolled compulsory subjects, such as:
+- English Home Language
+- Afrikaans First Additional Language
+- Mathematics
+- Life Orientation
+
+Students can quickly access their subjects directly from the dashboard.
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 24 (2)" src="https://github.com/user-attachments/assets/2627f53e-05df-46ba-a2df-74cd2ac31716" />
+
+### My Courses
+Displays a comprehensive list of the student's active courses.
+
+Each course card includes:
+- Course name.
+- Teacher's name.
+- A visual progress bar showing the student's completion percentage.
+
+For example, Mathematics 101 displays 75% course progress.
+
+### Course Overview (Mathematics 101)
+Provides detailed information about a selected course, including:
+- Teacher information.
+- Current student average (75%).
+- Overview tab.
+- Materials tab.
+- Assignments tab.
+- Grades tab.
+- **Take Adaptive Quiz** button for self-assessment.
+
+---
+
+## 3. Assignment Management
+
+This section demonstrates how students add, upload, and manage their academic assignments.
+
+### Add Assignment Modal (Empty)
+Displays the assignment submission form before any information has been entered.
+
+The form includes:
+- Assignment Title field.
+- Due Date field.
+
+### Add Assignment Modal (Filled)
+Shows the assignment form after the student has entered the required information.
+
+For example, the student enters **"Maths"** as the assignment title and selects a due date.
+
+Students can also:
+- Select files from their device's internal storage.
+- Upload supported file formats, including TXT, PDF, Word documents and PNG images.
+- Click the **Add** button to save the assignment.
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 26 (1)" src="https://github.com/user-attachments/assets/8ecc2458-1417-43c0-b81b-0aafe5aa3dc5" />
+
+---
+
+## 4. Notifications & Calendar
+
+This section highlights the application's notification system and integrated calendar functionality.
+
+### Notifications Feed
+Keeps students informed about important academic activities and upcoming events.
+
+Notifications are organised into three categories:
+- **All:** Displays all notifications.
+- **Unread:** Shows notifications that have not yet been opened.
+- **Announcements:** Displays important academic announcements.
+
+Examples of notifications include:
+- Upcoming assignment deadlines.
+- Graded laboratory reports.
+- Newly uploaded study materials.
+- Class reminders.
+
+### Notifications with Calendar
+Shows the notification feed with the integrated calendar expanded.
+
+The calendar displays a monthly view (e.g., November 2026), using dots to highlight dates with upcoming assignments, deadlines, or academic events.
+
+<img width="748" height="1600" alt="REAL TIME " src="https://github.com/user-attachments/assets/344c77bb-6a45-4320-ab15-c5e77195c03b" />
+
+<img width="748" height="1600" alt="REAL TIME CAL" src="https://github.com/user-attachments/assets/cd671ba7-efce-4833-a9e3-27dc5403e6a2" />
+
+
+---
+
+## 5. Study Time & Subject Tracker
+
+This section demonstrates EduConnect's study management and gamification features, helping students monitor their learning progress and maintain consistent study habits.
+
+### Study Tracker (This Month)
+Provides a monthly overview comparing the student's actual study time against their established study goals.
+
+Progress bars display the time spent studying individual subjects, such as:
+- Mathematics
+- English
+- Physical Sciences
+
+### Study Tracker (This Week)
+Displays study activity for the current week.
+
+It helps students identify subjects that require additional attention. Visual indicators, such as orange warnings, highlight subjects where students are falling behind.
+
+For example, History may display a **"Needs more study time"** notification.
+
+### Study Tracker (This Term)
+Provides an overview of study activity throughout the academic term.
+
+It tracks the total hours spent studying against the student's term goals across all enrolled subjects.
+
+### Overall Goal Adherence & Study Badges
+Displays a summary of the student's overall study performance and goal completion.
+
+For example, students may achieve an 85% study goal completion rate.
+
+The section also includes **Study Badges & Milestones**, which reward students for their progress and consistency.
+
+Examples include:
+- 🏆 **Math Whiz:** Recognises strong performance in Mathematics.
+- 🔥 **7-Day Streak:** Rewards students for maintaining a consistent study routine for seven consecutive days.
+- 🎓 **Exam Ready:** Recognises preparation and progress towards examinations.
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 28 (1)" src="https://github.com/user-attachments/assets/e18a088e-0f53-42e5-90d0-6f937f64ff18" />
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 28" src="https://github.com/user-attachments/assets/5d332cb2-b457-4d20-b0bb-94aae8b5eedf" />
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 29 (1)" src="https://github.com/user-attachments/assets/6b8f4092-3560-4672-b11d-7c3138076d09" />
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 29" src="https://github.com/user-attachments/assets/621ab66a-7017-47f3-8fb4-e79a5bf9cc14" />
+
+---
+
+## 6. Settings & Localization
+
+This section covers application customisation, accessibility options, language preferences, and account management.
+
+### Settings Page (English)
+The main settings menu allows students to customise their application experience.
+
+Available settings include:
+- **Language:** Change the application's display language.
+- **Appearance:** Switch between Light and Dark themes.
+- **Push Notifications:** Enable or disable notifications.
+- **Account Management:** Access personal information, change passwords, and manage privacy settings.
+- **Terms of Service:** View the application's terms and conditions.
+- **Logout:** Securely sign out of the application.
+
+### Language Selection Modal
+Displays a pop-up menu where students can select their preferred application language.
+
+Supported languages include:
+- English
+- isiZulu
+- Afrikaans
+- Sesotho
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 30" src="https://github.com/user-attachments/assets/e5cf6949-3d31-4448-8428-dfe49e6c91a7" />
+
+<img width="748" height="1600" alt="WhatsApp Image 2026-11-05 at 21 33 31" src="https://github.com/user-attachments/assets/2f9f2b2e-c94d-48d2-84ec-b2e4472f887f" />
+
+### Theme Selection Modals (Dark & Light)
+Allows students to customise the application's appearance.
+
+Available options include:
+- **Light Mode:** Uses a bright interface.
+- **Dark Mode:** Uses a darker interface for improved visual comfort in low-light environments.
+- **System Default:** Automatically follows the device's appearance settings.
+
+<img width="1080" height="2310" alt="DARK MODE" src="https://github.com/user-attachments/assets/5818562b-3fbf-49f5-b482-a7fe97f169e5" />
+
+<img width="1080" height="2310" alt="LIGHT MODE" src="https://github.com/user-attachments/assets/4b3d5733-d537-4ea8-9758-590a88e455d1" />
+
+### Localized Settings (isiZulu & Afrikaans)
+Demonstrates EduConnect's multilingual functionality by showing how the settings interface changes when a different language is selected.
+
+Examples include:
+- **isiZulu:** "Izilungiselelo"
+- **Afrikaans:** "Instellings"
+
+This feature improves accessibility and makes the application more inclusive for South African students from different language backgrounds.
+
+---
 
 ## 📝 7. Release Notes – Version 2.0.0 (Final POE)
 
@@ -391,14 +631,6 @@ Relevant AI assistance has been acknowledged in the project documentation and so
 ## 🤝 9. Contribution
 
 Contributions, bug reports, and feature suggestions are welcome.
-
-Anyone interested in improving EduConnect can:
-
-1. Fork the GitHub repository.
-2. Create a new feature branch.
-3. Make the necessary changes.
-4. Commit and push the changes.
-5. Submit a pull request for review.
 
 ---
 
